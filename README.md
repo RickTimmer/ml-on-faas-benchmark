@@ -136,4 +136,3 @@ Adding a dataset it slightly more involved.
 2. In `artifacts/bucket.tf` add your dataset just like the ones that are already in there
 3. In the `experiments/src/main.go` change the function `getDataset` to also account for your new dataset key
 4. Done, use the dataset in the `.env` file and make sure to build the images again with `1` so the new `experiments` image is available
-5. 
